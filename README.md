@@ -1,160 +1,81 @@
-\# 📋 İş Takip Uygulaması
+#  İş Takip Uygulaması
 
+C# ve Windows Forms kullanılarak geliştirilmiş **İş Takip ve Hatırlatıcı Uygulaması**.
 
+Kullanıcıların günlük iş ve görevlerini ekleyebildiği, düzenleyebildiği, silebildiği ve belirlenen tarih-saat bilgilerine göre takip edebildiği masaüstü tabanlı bir uygulamadır.
 
-C# ve Windows Forms kullanılarak geliştirilen \*\*İş Takip Uygulaması\*\*, kullanıcıların günlük iş ve görevlerini kolayca oluşturmasını, düzenlemesini, silmesini ve belirlenen tarih-saat bilgilerine göre takip etmesini sağlayan masaüstü uygulamasıdır.
+##  Özellikler
 
+*  İş ve görev ekleme
+*  Görevleri düzenleme
+*  Seçili görevi silme
+*  Tüm görevleri silme
+*  Tarih ve saat belirleme
+*  Zamanı gelen görevler için alarm
+*  MP3 formatında alarm sesi
+*  Görevleri TXT dosyasına kaydetme
+*  Kayıtları dosyadan yükleme
+*  Klavye kısayolları
 
-
-\## 📌 Proje Hakkında
-
-
-
-Uygulama, kullanıcıların gerçekleştirmesi gereken işleri düzenli bir şekilde takip edebilmesi amacıyla geliştirilmiştir. Kullanıcı; iş adı, açıklama ve isteğe bağlı olarak tarih-saat bilgisi girerek görev oluşturabilmektedir.
-
-
-
-Belirlenen tarih ve saat geldiğinde uygulama, alarm sistemi aracılığıyla kullanıcıyı bilgilendirmektedir.
-
-
-
-\## 🚀 Özellikler
-
-
-
-\* 📝 Yeni iş/görev ekleme
-
-\* ✏️ Kayıtları düzenleme
-
-\* 🗑️ Seçili kaydı silme
-
-\* 🧹 Tüm kayıtları silme
-
-\* 📅 Tarih ve saat belirleme
-
-\* ⏰ Zamanı gelen görevler için alarm
-
-\* 🔊 MP3 formatında alarm sesi
-
-\* 💾 Görevleri TXT dosyasına kaydetme
-
-\* 📂 Kayıtları dosyadan yükleme
-
-\* ⌨️ Klavye kısayolları ile hızlı işlem yapabilme
-
-
-
-\## ⌨️ Klavye Kısayolları
-
-
+## ⌨️ Klavye Kısayolları
 
 | Kısayol   | İşlem             |
-
 | --------- | ----------------- |
-
 | `Alt + Y` | Yeni kayıt        |
-
 | `Alt + K` | Kaydet            |
-
 | `Alt + Z` | Düzenle           |
-
 | `Alt + S` | Seçili kaydı sil  |
-
 | `Alt + H` | Tüm kayıtları sil |
-
 | `Alt + D` | Dosyaya kaydet    |
 
+## 🛠️ Kullanılan Teknolojiler
 
+* **C#**
+* **Windows Forms**
+* **.NET Framework**
+* **Visual Studio**
+* **Windows Media Player**
+* **Git & GitHub**
 
-\## 🛠️ Kullanılan Teknolojiler
+##  Proje Yapısı
 
+```text
+Is_Takibi
+│
+├── Form1.cs
+├── Form1.Designer.cs
+├── Form1.resx
+├── Program.cs
+├── App.config
+├── alarm.mp3
+├── is_takip.csproj
+├── is_takip.sln
+│
+└── Properties
+    ├── AssemblyInfo.cs
+    ├── Resources.resx
+    ├── Resources.Designer.cs
+    ├── Settings.settings
+    └── Settings.Designer.cs
+```
 
-
-\* \*\*C#\*\*
-
-\* \*\*Windows Forms\*\*
-
-\* \*\*.NET Framework\*\*
-
-\* \*\*Visual Studio\*\*
-
-\* \*\*Git \& GitHub\*\*
-
-\* \*\*Windows Media Player\*\*
-
-
-
-\## 📂 Veri Yönetimi
-
-
-
-Uygulamada görev kayıtlarının saklanması için metin tabanlı dosya yapısı kullanılmıştır.
-
-
-
-\* `liste.txt` → Görev kayıtlarının tutulması
-
-\* `ayarlar.dat` → Kayıt dosyasının konum bilgilerinin tutulması
-
-\* `alarm.mp3` → Alarm sesi
-
-
-
-\## ▶️ Kurulum
-
-
+##  Kurulum
 
 Projeyi çalıştırmak için:
 
-
-
-1\. Projeyi GitHub üzerinden klonlayın.
-
-2\. `is\_takip.sln` dosyasını Visual Studio ile açın.
-
-3\. Projeyi derleyin.
-
-4\. Uygulamayı çalıştırın.
-
-
-
 ```bash
-
 git clone https://github.com/fyuceer/Is-Takip-Uygulamasi.git
-
 ```
 
+Ardından `is_takip.sln` dosyasını **Visual Studio** ile açarak projeyi çalıştırabilirsiniz.
 
+##  Projenin Amacı
 
-\## 🎯 Projenin Amacı
+Bu projenin amacı, kullanıcıların günlük işlerini ve görevlerini düzenli bir şekilde takip edebilmesini sağlayan, zamanında hatırlatma yapabilen basit ve kullanışlı bir masaüstü uygulaması geliştirmektir.
 
+##  Geliştirici
 
+**Feyza Yüceer**
 
-Bu projenin amacı, kullanıcıların günlük görevlerini düzenli bir şekilde takip edebileceği, zamanında bildirim alabileceği ve temel görev yönetimi işlemlerini gerçekleştirebileceği basit ve kullanışlı bir masaüstü uygulaması geliştirmektir.
-
-
-
-\## 👩‍💻 Geliştirici
-
-
-
-\*\*Feyza Yüceer\*\*
-
-
-
-Bilgisayar Mühendisliği
-
-
-
-GitHub: \*\*\[@fyuceer](https://github.com/fyuceer)\*\*
-
-
-
-\---
-
-
-
-⭐ Projeyi faydalı bulduysanız yıldız vermeyi unutmayın!
-
-
+GitHub: [@fyuceer](https://github.com/fyuceer)
 
