@@ -1,4 +1,4 @@
-#  İş Takip Uygulaması
+# 🛠️ İş Takip Uygulaması
 
 C# ve Windows Forms kullanılarak geliştirilmiş **İş Takip ve Hatırlatıcı Uygulaması**.
 
@@ -28,7 +28,7 @@ Kullanıcıların günlük iş ve görevlerini ekleyebildiği, düzenleyebildiğ
 | `Alt + H` | Tüm kayıtları sil |
 | `Alt + D` | Dosyaya kaydet    |
 
-## 🛠️ Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 
 * **C#**
 * **Windows Forms**
@@ -75,7 +75,7 @@ Bu projenin amacı, kullanıcıların günlük işlerini ve görevlerini düzenl
 
 ##  Geliştirici
 
-**Feyza Yüceer**
+**FeyzaSultanYüceer**
 
 GitHub: [@fyuceer](https://github.com/fyuceer)
 
